@@ -7,13 +7,13 @@
 
 
 ## How to use
-**configHQ** can be managed through a user-friendly, web-based admin interface.
+**configHQ** can be managed through a user-friendly, web-based admin interface. The core of the user interface is a query builder, which is used for easy setup of configuration query rules or value storage.
 
-The core of the user interface is a query builder, which is used for easy setup of configuration rules or value storage.  
-
+### Step 1: Go to Queries
+The queries page will show existing queries.
 
 
 
 
 ## Disclosure   
-**configHQ** is a project submitted to the RedisConf2021 Hackathon, and is not intended to be used in production at this point. The project is available as-is without any warranties or guarantees, and usage is at own risk.
+**configHQ** is a project submitted to the RedisConf2021 Hackathon, and is not intended to be used in production at this point. The purpose of the code is to show an example of how Redis services can be used, and the code has not gone through testing, optimization or security audits. The project is available as-is without any warranties or guarantees, and usage is at own risk.
