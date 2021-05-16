@@ -12,15 +12,17 @@
 ### Step 1: Go to Queries
 The queries page will show existing queries. To create a new query, click the green button with a plus-sign above the table.
 
-![Admin Page - Queries](images/Queries.png)
+
+
+| ![Admin Page - Queries](images/Queries.png) | ![Admin Page - Query Builder](images/Query_blank.png) |
+| ------------------------------------------- | ----------------------------------------------------- |
+| Queries                                     | Query Builder                                         |
 
 ### Step 2: Create the query
 The query builder can be used to define a very fine grained query, with multiple groups of rules. For a successful query, either one (OR) or all (AND) groups must fulfill group rules.
 
 
-| ![Admin Page - Query](images/Query_blank.png) | ![Admin Page - Query](images/Query_example_2.png) |
-| --------------------------------------------- | ------------------------------------------------- |
-| Query Builder                                 | Example                                           |
+![Admin Page - Query](images/Query_example_2.png)
 
 Each group can have either one or more rules. A rule is a logical operation. In the example above, the rule checks if a user belongs to the bronze level of a loyalty program. The rule specifies the user's membership must be greater than 0 months and less than 12 months to be categorized as a bronze member.
 
