@@ -15,12 +15,12 @@ The queries page will show existing queries. To create a new query, click the gr
 ![Admin Page - Queries](images/Queries.png)
 
 ### Step 2: Create the query
+The query builder can be used to define a very fine grained query, with multiple groups of rules. For a successful query, either one (OR) or all (AND) groups must fulfill group rules.
 
 
-
-| ![Admin Page - Query](images/Query_blank.png) | ![Admin Page - Query](images/Query_blank.png) |
-| --------------------------------------------- | --------------------------------------------- |
-|                 Query Builder                 |                    Example                    |
+| ![Admin Page - Query](images/Query_blank.png) | ![Admin Page - Query](images/Query_example_3.png) |
+| --------------------------------------------- | ------------------------------------------------- |
+| Query Builder                                 | Example                                           |
 
 
 ## Disclosure   
