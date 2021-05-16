@@ -7,7 +7,9 @@
 
 
 ## How to use
-**configHQ** can be managed through a user-friendly, web-based admin interface. 
+**configHQ** can be managed through a user-friendly, web-based admin interface.
+
+The core of the user interface is a query builder, which is used for easy setup of configuration rules or value storage.  
 
 
 
