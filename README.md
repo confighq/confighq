@@ -16,6 +16,7 @@ The queries page will show existing queries. To create a new query, click the gr
 
 ### Step 2: Create the query
 
+| asd                                           | sdaasdasd                                     |
 | --------------------------------------------- | --------------------------------------------- |
 | ![Admin Page - Query](images/Query_blank.png) | ![Admin Page - Query](images/Query_blank.png) |
 
