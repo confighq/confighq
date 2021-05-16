@@ -22,6 +22,9 @@ The query builder can be used to define a very fine grained query, with multiple
 | --------------------------------------------- | ------------------------------------------------- |
 | Query Builder                                 | Example                                           |
 
+Each group can have either one or more rules. A rule is a logical operation. In the example above, the rule checks if a user belongs to the bronze level of a loyalty program. The rule specifies the user's memebership must be greater than 0 months and less than 12 months to be categorized as a bronze member.
+
+
 
 ## Disclosure   
 **configHQ** is a project submitted to the RedisConf2021 Hackathon, and is not intended to be used in production at this point. The purpose of the code is to show an example of how Redis services can be used, and the code has not gone through testing, optimization or security audits. The project is available as-is without any warranties or guarantees, and usage is at own risk.
