@@ -28,5 +28,13 @@ Each group can have either one or more rules. A rule is a logical operation. In 
 
 Lets say the loyalty level qualifies for a specific discount, the response of the query will return a 0% discount if as default, and a 10% discount if the user's memebership lenght is up to 12 months.  
 
+### Step 3: Implement in application or service
+
+The queries can now be used in an application or a service, to determine features, behavior, values and much more. Below is an example application which uses **configHQ** to manage the following:
+
+- Show a discount banner if a campaign is active
+- Show free delivery if the user is located in the US, otherwise generic text
+- Set discount percentage based on the length of the user's membership
+
 ## Disclosure   
 **configHQ** is a project submitted to the RedisConf2021 Hackathon, and is not intended to be used in production at this point. The purpose of the code is to show an example of how Redis services can be used, and the code has not gone through testing, optimization or security audits. The project is available as-is without any warranties or guarantees, and usage is at own risk.
