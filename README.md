@@ -9,7 +9,7 @@
 ## How to use
 **configHQ** can be managed through a user-friendly, web-based admin interface. The core of the user interface is a query builder, which is used for easy setup of configuration query rules or value storage.
 
-### Step 1: Go to Queries
+#### Step 1: Go to Queries
 The queries page will show existing queries.
 
 
