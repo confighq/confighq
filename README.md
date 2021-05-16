@@ -4,7 +4,10 @@
 
 **configHQ** fits perfectly in a microservice architecture, and can be run as a microservice itself.
 
+## Architecture
+**configHQ** is a service which provides an API for applications to pull configurations. RedisJSON is used for storing the configuration queries in JSON format.
 
+![Architecture](images/architecture.png)
 
 ## How to use
 **configHQ** can be managed through a user-friendly, web-based admin interface. The core of the user interface is a query builder, which is used for easy setup of configuration query rules or value storage.
