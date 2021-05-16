@@ -18,7 +18,7 @@ The queries page will show existing queries. To create a new query, click the gr
 The query builder can be used to define a very fine grained query, with multiple groups of rules. For a successful query, either one (OR) or all (AND) groups must fulfill group rules.
 
 
-| ![Admin Page - Query](images/Query_blank.png) | ![Admin Page - Query](images/Query_example_3.png) |
+| ![Admin Page - Query](images/Query_blank.png) | ![Admin Page - Query](images/Query_example_2.png) |
 | --------------------------------------------- | ------------------------------------------------- |
 | Query Builder                                 | Example                                           |
 
