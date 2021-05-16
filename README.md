@@ -38,15 +38,11 @@ The queries can now be used in an application or a service, to determine feature
 
 | ![Admin Page](images/Query_example_3.png) | ![Demo App](images/DemoApp_example_2.png) |
 | ------------------------------------------- | ----------------------------------------------------- |
-| In this example, the query is used as a key-value store, without rules, and the default response value holds the value of the key *campaign-active*.                                    | The campaign banner is enabled because *campaign-active* returns the value true                                         |
+| In this example, the query is used as a key-value store, without rules, and the default response value holds the value of the key *campaign-active*. | The campaign banner is enabled because *campaign-active* returns the value true. |
 
-| ![Admin Page - Queries](images/Queries.png) | ![Admin Page - Query Builder](images/Query_blank.png) |
+| ![Admin Page](images/Query_example_2.png) | ![Demo App](images/DemoApp_example_2.png) |
 | ------------------------------------------- | ----------------------------------------------------- |
-| Queries                                     | Query Builder                                         |
-
-| ![Admin Page - Queries](images/Queries.png) | ![Admin Page - Query Builder](images/Query_blank.png) |
-| ------------------------------------------- | ----------------------------------------------------- |
-| Queries                                     | Query Builder                                         |
+| In this example, the loyaly tier bronze is defined as a membership length in months between 0 and 12 months. The response value is 10(%) if the range is met, otherwise 0. | The response value returns a discount percentage based on the length of a user's membership. |
 
 ## Disclosure   
 **configHQ** is a project submitted to the RedisConf2021 Hackathon, and is not intended to be used in production at this point. The purpose of the code is to show an example of how Redis services can be used, and the code has not gone through testing, optimization or security audits. The project is available as-is without any warranties or guarantees, and usage is at own risk.
