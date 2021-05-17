@@ -9,6 +9,8 @@
 
 ![Architecture](images/architecture.png)
 
+Configurations are key to the application functionality and behavior, so the speed of pulling the configuration is critical. For this purpose RedisJSON works really well, since the configurations are stored as JSON in memory. 
+
 ## How to use
 **configHQ** can be managed through a user-friendly, web-based admin interface. The core of the user interface is a query builder, which is used for easy setup of configuration query rules or value storage.
 
