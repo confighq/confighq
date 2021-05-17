@@ -9,7 +9,7 @@
 
 ![Architecture](images/architecture.png)
 
-Configurations are key to the application functionality and behavior, so the speed of pulling the configuration is critical. For this purpose RedisJSON works really well, since the configurations are stored as JSON in memory. 
+Configurations are key to the application functionality and behavior, so the speed of pulling the configuration is critical. For this purpose RedisJSON works really well, since the configurations are stored as JSON in memory.
 
 ## How to use
 **configHQ** can be managed through a user-friendly, web-based admin interface. The core of the user interface is a query builder, which is used for easy setup of configuration query rules or value storage.
@@ -41,7 +41,7 @@ The queries can now be used in an application or a service, to determine feature
 - Show free delivery if the user is located in the US, otherwise generic text
 - Set discount percentage based on the length of the user's membership
 
-| ![Admin Page](images/Query_example_3.png) | ![Demo App](images/DemoApp_example_1.png) |
+| ![Admin Page](images/Query_example_3.png) | ![Demo App](https://github.com/confighq/confighq/raw/main/images/DemoApp_example_1.png) |
 | ------------------------------------------- | ----------------------------------------------------- |
 | In this example, the query is used as a key-value store, without rules, and the default response value holds the value of the key *campaign-active*. | The campaign banner is enabled because *campaign-active* returns the value true. |
 
